@@ -1,4 +1,4 @@
-<?xml version="1.0"?> <!-- This will be the same in all themes -->
+<?xml version="1.0"?> <!-- This will be the same in all themes  -->
 <addon> <!-- Open the addon node -->
     <name>agency</name><!-- A namespace for our theme. This will be the namespace we will be using in language calls or view calls -->
     <title>Bootstrap One Page Creative</title> <!-- A super cool title for our theme -->

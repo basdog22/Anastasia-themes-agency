@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This is the positions file. It is a simple array that holds the structure that will be loaded in the block manager
  * We have commented each line to help you understand what is happening

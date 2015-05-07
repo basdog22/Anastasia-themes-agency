@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Register content blocks.
  * We have commented each new line so that it is easier for you to understand what is happening

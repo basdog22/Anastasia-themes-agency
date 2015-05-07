@@ -14,7 +14,7 @@ How to install:
 
 ## Bugs and Issues
 
-Have a bug or an issue with this theme? [Open an issue](https://github.com/basdog22/anastasia-themes-agency/issues) here on GitHub or send us a message to our [Facebook page](https://www.facebook.com/pages/Anastasia-Publishing-Platform-APP/1429413080696658?fref=ts).
+Have a bug or an issue with this theme? [Open an issue](https://github.com/basdog22/Anastasia-themes-agency/issues) here on GitHub or send us a message to our [Facebook page](https://www.facebook.com/pages/Anastasia-Publishing-Platform-APP/1429413080696658?fref=ts).
 
 ## Creator
 
