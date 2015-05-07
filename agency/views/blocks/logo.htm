@@ -1,0 +1,7 @@
+<a class="navbar-brand page-scroll" href="#page-top">
+    @if(get_theme_config('logo'))
+    <img src="{{get_theme_config('logo')}}" alt="{{get_config_value('brand')}}">
+    @else
+    {{get_config_value('brand')}}
+    @endif
+</a>

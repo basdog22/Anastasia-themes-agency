@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{pagetitle()}}</title>
+    <meta name="description" content="{{{ pagedescription() }}}"/>
+    <meta name="keywords" content="{{{ pagekeywords() }}}"/>
+    <link rel="icon" href="{{ get_theme_config('icon') }}" />
+    {{hreflang()}}
+    <!-- Bootstrap Core CSS -->
+    {{ HTML::style(Config::get("themes.current.theme_url").'/layouts/default/css/bootstrap.css') }}
+    {{ HTML::style(Config::get("themes.current.theme_url").'/layouts/default/css/agency.css') }}
+    {{ HTML::style(Config::get("themes.current.theme_url").'/layouts/default/font-awesome/css/font-awesome.min.css') }}
+
+
+    <!-- Custom CSS -->
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        {{get_theme_config('custom_css')}}
+    </style>
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                {{$grids['header'][1]}}
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                {{$grids['header'][2]}}
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+
+
+    {{$grids['body'][1]}}
+    {{$grids['body'][2]}}
+    {{$grids['body'][3]}}
+    {{$grids['body'][4]}}
+    {{$grids['body'][5]}}
+    {{$grids['body'][6]}}
+    {{$grids['body'][7]}}
+
+
+    
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+
+                    {{$grids['footer'][1]}}
+                </div>
+                <div class="col-md-4">
+                    {{$grids['footer'][2]}}
+                </div>
+                <div class="col-md-4">
+                    {{$grids['footer'][3]}}
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    {{ HTML::script(Config::get("themes.current.theme_url").'/layouts/default/js/jquery.js') }}
+    {{ HTML::script(Config::get("themes.current.theme_url").'/layouts/default/js/bootstrap.min.js') }}
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    {{ HTML::script(Config::get("themes.current.theme_url").'/layouts/default/js/classie.js') }}
+    {{ HTML::script(Config::get("themes.current.theme_url").'/layouts/default/js/cbpAnimatedHeader.js') }}
+    {{ HTML::script(Config::get("themes.current.theme_url").'/layouts/default/js/jqBootstrapValidation.js') }}
+    {{ HTML::script(Config::get("themes.current.theme_url").'/layouts/default/js/contact_me.js') }}
+    {{ HTML::script(Config::get("themes.current.theme_url").'/layouts/default/js/agency.js') }}
+
+    <script>
+        {{get_theme_config('custom_js')}}
+    </script>
+
+</body>
+
+</html>
